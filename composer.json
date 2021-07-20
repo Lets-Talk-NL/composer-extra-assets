@@ -5,7 +5,9 @@
     "license": "BSD-2-Clause",
     "type": "composer-plugin",
     "require": {
-        "composer-plugin-api": "^1.0",
+        "php": ">= 7.4",
+        "ext-json": "*",
+        "composer-plugin-api": "^1.0 || ^2.0",
         "mouf/nodejs-installer": ">=1.0.2 <2.0"
     },
     "require-dev": {
